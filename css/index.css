@@ -1,0 +1,136 @@
+.body_0,#tx2,html{
+    background: #f1f1f1 !important;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.index-nav-area{
+    height: 40px;
+    width: 100%;
+    background: #09f;
+    float: left;
+}
+.index-nav-ul li{
+    display: none;
+}
+.index-nav-li{
+    display: inline-block !important;
+    height: 100%;
+    line-height: 40px;
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.index-nav-li:hover{
+    background: red;
+}
+
+.index-nav-li a{
+    color: #fff !important;
+}
+.fleft,.first_01,.first_02,.news-hot{
+    width: 49% !important;
+}
+.container,#newsSlider,.tongzhi,.tuij_news,.center-talk,.center-news{
+    width: 100% !important;
+}
+
+.first_01,.first_02{
+    width: 48% !important;
+}
+
+#newsSlider UL.pagination{
+    margin-left: 197px;
+}
+.silder_title{
+    width: 477px;
+}
+.slides img{
+    width: 477px !important;
+}
+
+.se-icons{
+    float: left;
+    height: 200px;
+    display: flex;
+    display: -webkit-flex; 
+    -webkit-justify-content: center; 
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    padding-top: 10px;
+    background: #fff;
+}
+
+.se-icons div{
+    /* position:absolute;
+    left:50%;IE8及以上支持,但防止出不来，暂时兼容ie 10
+    top:50%; */
+    /* transform: translate(-50%,-50%); 
+    -ms-transform: translate(-50%,-50%);  /* IE9及以上支持 */
+    /* -webkit-transform: translate(-50%,-50%);    /* Safari and Chrome */
+    /* -o-transform: translate(-50%,-50%);     /* Opera */
+    /* -moz-transform: translate(-50%,-50%);  */ 
+    /* margin-left: -240px;
+    margin-top: -40px; */
+}
+.se-icons p{
+    margin-top: 10px;
+    color: #000;
+}
+
+
+
+.content {
+    margin-top: 5px;
+    text-align: center;
+    padding: 20px 0;
+}
+.content p {
+    font-size: 16px;
+    text-indent: 2em;
+    margin: 10px 20px;
+    text-align: start;
+}
+.content img {
+    margin: 0 auto
+}
+.content h5,.content h4 {
+    font-size: 16px;
+    color: #000;
+    text-align: start;
+    font-weight: bolder;
+    padding: 0 3em;
+}
+.content h4 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.logo-cont{
+    width: 100%;
+    /* display: flex;
+    display: -webkit-flex;  兼容ie10以上
+    -webkit-justify-content: center;  */
+    position: relative;
+    padding-bottom: 20px;
+    height: 130px;
+    float: none !important;
+    background: #fff;
+}
+
+.logo-cont img{
+    /* width: 790px; */
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -302px;
+}
+
+#ad1000{
+    height: 500px;
+}
